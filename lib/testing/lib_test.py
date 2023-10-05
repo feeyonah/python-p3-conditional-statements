@@ -94,6 +94,9 @@ class TestCalculator:
         assert(calculator("/", 1, 1) == 1)
         assert(calculator("/", 14, 7) == 2)
         assert(calculator("/", 90, 9) == 10)
+         
+
+         
 
     def test_prints_invalid_returns_none_if_invalid(self):
         '''prints "Invalid operation!" and returns None if operation invalid'''
